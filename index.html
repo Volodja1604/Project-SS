@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Прогноз погоди в Івано-Франківську</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <div class="wrapper_background">
+    <img  class="wrapper-background_1" src="images/Warcraft-half1.png" alt="warcraft">
+    <img  class="wrapper-background_2" src="images/Warcraft-half2.png" alt="warcraft">
+  </div>
+  <div class="container_wrapper">
+    <div class="container">
+     <div class="row">
+       <header>
+         <div class="col-md-3"> 
+           <img src="images/umbrella.gif">
+           <span>
+             meteoUA  
+           </span>
+         </div>
+         <div class="col-md-9"> 
+
+    
+   
+
+
+           <div class="input-group">
+      <input type="text" id="city_name" class="form-control" placeholder="Введіть населений пункт">
+      <span class="input-group-btn">
+        <button class="btn btn-secondary" type="button"><span class="glyphicon glyphicon-search"></span></button>
+      </span>
+    </div>
+         </div>
+       </header>
+     </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="wrapper">
+  <div class="maincontent">
+    <div class="container">
+      <div class="tabs">
+        
+        <ul class="tabs_controls">
+          <li class="tabs_controls-item active">
+            <a href="#" class="tabs_control-link">Погода на сьогодні</a>
+          <li class="tabs_controls-item">
+            <a href="#" class="tabs_control-link forte">Погода на 5 днів</a>
+          </li>
+
+        </ul>
+
+        <ul class="tabs_list">
+        <li class="tabs_item active">
+<table class="table_weather  table-striped">
+  <tr>
+    <td >День</td>
+    <td>Погода</td>
+    <td > Weather</td>
+    <td>Температура</td>
+    <td>Тиск</td>
+    <td>Вологість</td>
+    <td>Швидкість вітру</td>
+  </tr>
+  <tr>
+    <td  id="day"></td>
+    <td id="wheather_day"></td>
+    <td ><img src="" id="cloudimg"></td>
+    <td id="temp"></td>
+    <td id="press"></td>
+    <td id="humidity"></td>
+    <td id="wind"></td>
+  </tr>
+  <tr>
+    <td  id="day"></td>
+    <td id="wheather_day"></td>
+    <td ><img src="" id="cloudimg"></td>
+    <td id="temp"></td>
+    <td id="press"></td>
+    <td id="humidity"></td>
+    <td id="wind"></td>
+  </tr>
+    <tr>
+    <td  id="day"></td>
+    <td id="wheather_day"></td>
+    <td ><img src="" id="cloudimg"></td>
+    <td id="temp"></td>
+    <td id="press"></td>
+    <td id="humidity"></td>
+    <td id="wind"></td>
+  </tr>
+    <tr>
+    <td  id="day"></td>
+    <td id="wheather_day"></td>
+    <td ><img src="" id="cloudimg"></td>
+    <td id="temp"></td>
+    <td id="press"></td>
+    <td id="humidity"></td>
+    <td id="wind"></td>
+  </tr>
+    <tr>
+    <td  id="day"></td>
+    <td id="wheather_day"></td>
+    <td ><img src="" id="cloudimg"></td>
+    <td id="temp"></td>
+    <td id="press"></td>
+    <td id="humidity"></td>
+    <td id="wind"></td>
+  </tr> 
+
+</table>
+        </li>
+        <li class="tabs_item">
+<table class="table_weather1  table-striped">
+  <tr>
+    <td >День</td>
+    <td>Погода</td>
+    <td > Weather</td>
+    <td>Температура</td>
+    <td>Тиск</td>
+    <td>Вологість</td>
+    <td>Швидкість вітру</td>
+  </tr>
+  <tr>
+    <td  id="day"></td>
+    <td id="wheather_day"></td>
+    <td ><img src="" id="cloudimg"></td>
+    <td id="temp"></td>
+    <td id="press"></td>
+    <td id="humidity"></td>
+    <td id="wind"></td>
+  </tr>
+  <tr>
+    <td  id="day"></td>
+    <td id="wheather_day"></td>
+    <td ><img src="" id="cloudimg"></td>
+    <td id="temp"></td>
+    <td id="press"></td>
+    <td id="humidity"></td>
+    <td id="wind"></td>
+  </tr>
+    <tr>
+    <td  id="day"></td>
+    <td id="wheather_day"></td>
+    <td ><img src="" id="cloudimg"></td>
+    <td id="temp"></td>
+    <td id="press"></td>
+    <td id="humidity"></td>
+    <td id="wind"></td>
+  </tr>
+    <tr>
+    <td  id="day"></td>
+    <td id="wheather_day"></td>
+    <td ><img src="" id="cloudimg"></td>
+    <td id="temp"></td>
+    <td id="press"></td>
+    <td id="humidity"></td>
+    <td id="wind"></td>
+  </tr>
+    <tr>
+    <td  id="day"></td>
+    <td id="wheather_day"></td>
+    <td ><img src="" id="cloudimg"></td>
+    <td id="temp"></td>
+    <td id="press"></td>
+    <td id="humidity"></td>
+    <td id="wind"></td>
+  </tr> 
+
+</table>
+        </li>
+
+
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+    <div class="row about_ua">
+      <div class="col-md-6 about_ua"> 
+
+Україна — гарна, мальовнича країна, розташована у центрі Східної Європи. Туристи, які приїжджають до України з різних країн, часто цікавляться перед поїздкою, якою буде погода в Україні на час їх перебування. Найчастіше користувачі сайтів про погоду задають у пошуковій стрічці словосполучення "погода Україна", що сприяє їх швидкому одержанню потрібної інформації. Таку ж тенденцію ми спостерігаємо і на погодному сайті Meteo.ua з найточнішим прогнозом погоди в рамках температурних досліджень по версії The-village.ru. Якщо є бажання приїхати на травневі в Україну, дізнайтесь прогноз погоди на травневі свята в Україні і одразу починайте організовувати поїздку. Прогноз погоди надасть, як довгостроковий прогноз погоди в Україні, так і короткостроковий прогноз погоди в Україні. Тепер з легкістю можна дізнатись прогноз погоди в Україні на сьогодні, а також прогноз погоди в Україні на завтра, прогноз погоди на 7 днів в Україні, прогноз погоди на 10 днів в Україні, прогноз погоди на 14 днів в Україні, прогноз погоди на 30 днів в Україні. Деяка частина українців нерідко цікавиться, якою буде погода на тиждень в Україні, погода на місяць в Україні, погода в Карпатах, погода в Криму, погода на курортах Чорномор’я і курортів Азовського моря, погода в Буковелі, а також погода в Одесі та інших курортних містах.
+
+Погода у Києві буває різною в залежності від сезону. "Погода Київ" нерідко пишуть в інтернеті, коли цікавляться, яким буде прогноз погоди в Києві. Людям дуже цікаво знати прогноз погоди в Києві на тиждень, прогноз погоди в Києві на місяць, а найчастіше вони цікавляться, якою буде погода в Києві сьогодні. Знаючи прогноз погоди Києва завтра, можна легко спланувати своє дозвілля у столиці України.
+
+У туристів є вибір міст України, з яких почнеться їх пізнання країни. Перед прильотом в Україну варто поцікавитись, якою буде погода у Львові, погода в Донецьку, погода в Харкові, погода у Вінниці, погода в Одесі, погода в Дніпропетровську, погода в Івано- Франківську, погода в Луцьку, погода в Тернополі, погода в Сімферополі, погода в Ужгороді, погода в Полтаві, погода в Чернігові, погода в Кам’янці-Подільському, погода в Запоріжжі, погода в Луганську, погода в Чернівцях, погода в Миколаєві, погода в Житомирі, погода в Хмельницькому, погода в Криму, погода на ПБК (погода в Ялті, погода в Алушті, погода в Алупці, погода на побережжі, погода в горах), погода в Карпатах та інших цікавлячих містах.
+
+Україна — велика Європейська країна, багата своєю історією, національними традиціями, звичаями, кухнею, привітною гостинністю. Побувавши в Україні одного разу, захочеться повертатись сюди знову і знову, щоб пізнати красу різних куточків цієї прекрасної країни. І навіть коли погода в Україні на час поїздки не співпала з очікуваннями, вона привнесла їй свою емоцію і стала частиною загальних вражень.
+      </div>
+      <div class="col-md-6 ">
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83910.11420414454!2d24.64708902384898!3d48.911751844518705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4730c16c34b0381d%3A0xd6d32394e59e41c2!2z0IbQstCw0L3Qvi3QpNGA0LDQvdC60ZbQstGB0YzQuiwg0IbQstCw0L3Qvi3QpNGA0LDQvdC60ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGM!5e0!3m2!1suk!2sua!4v1465541257075"  frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+     <div class="row">
+       <footer class="footer_flex">
+         <div  class="flex">
+           <a href="#"><img src="images/arrow.png">Погода в Україні</a>
+           <br />
+           <a href="#"><img src="images/arrow.png">Інфографіка</a>
+           <br />
+           <a href="#"><img src="images/arrow.png">Погодні інформери</a>
+           <br />
+           <a href="#"><img src="images/arrow.png">Геомагнітні бурі</a>
+           <br />
+         </div>
+         <div  class="flex">
+           <a href="#"><img src="images/arrow.png">Новини</a>
+           <br />
+           <a href="#"><img src="images/arrow.png">Погода на дорогах</a>
+           <br />
+           <a href="#"><img src="images/arrow.png">Метеорологія</a>
+           <br />
+           <a href="#"><img src="images/arrow.png">Агрометеорологія</a>
+           <br />
+         </div>
+         <div class="flex">
+           <a href="#"><img src="images/arrow.png">Цікава метеорологія</a>
+           <br />
+           <a href="#"><img src="images/arrow.png">Штормові попередження</a>
+           <br />
+           <a href="#"><img src="images/arrow.png">Народний календар</a>
+           <br />
+           <a href="#"><img src="images/arrow.png">Погода на курортах</a>
+           <br />
+         </div>
+         <div class="flex">
+           <a href="#"><img src="images/arrow.png">Супутникова інформація</a>
+           <br />
+           <a href="#"><img src="images/arrow.png">Погода в карпатах</a>
+           <br />
+           <a href="#"><img src="images/arrow.png">Реклама на сайті</a>
+           <br />
+           <a href="#"><img src="images/arrow.png">Прайс-лист</a>
+           <br />
+         </footer>
+         <footer class="footer_flex">
+          <div class="col-md-2 col-sm-2"><img  class="umbrella" src="images/umbrella.gif"></div>
+         <div class=" col-md-10 col-sm-10 copiright">
+           <span>&#169; HTML Foundation.  Професійно про погоду. Погодні умови надані Український гідрометеорологічним центорм та сайтом Open Weather.</span><br>
+           <span>Cтворення і підтримка сайту - Volodja Pitchuk</span>
+         </div>
+         </footer>
+       </div>
+     </div>
+    </div>  
+
+  <script src="js/jquery-1.12.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+   <script src="js/script.js"></script>
+ 
+  </body>
+</html>
